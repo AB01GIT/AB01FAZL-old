@@ -1,0 +1,77 @@
+#backBTN {
+    width: 200px;
+    height: 40px;
+    background-color: #eb92fb;
+    margin: 5px;
+    transition: all ease 1s;
+}
+
+#pBACK {
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 23px;
+}
+
+@media only screen and (max-width: 768px) {
+    #backBTN {
+        display: none;
+    }
+
+    #pBACK {
+        display: none;
+    }
+}
+
+.fade-in2 {
+    animation: fadeIn ease-in 7s;
+    -webkit-animation: fadeIn ease-in 7s;
+    -moz-animation: fadeIn ease-in 7s;
+    -o-animation: fadeIn ease-in 7s;
+    -ms-animation: fadeIn ease-in 7s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

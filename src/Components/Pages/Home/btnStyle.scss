@@ -1,0 +1,90 @@
+.box-wrapper {
+    width: 150px;
+    height: 150px;
+
+    a {
+        z-index: 100;
+        font-size: 22px;
+        color: white;
+        text-decoration: none;
+        padding: 30px 20px;
+    }
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 1s ease;
+
+    .box {
+        width: 52%;
+        height: 90%;
+
+        background-image: linear-gradient(19deg, #bdc3c7 0%, #2c3e50 100%);
+
+        transition: all 0.5s ease;
+
+        position: relative;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &::before,
+        &::after {
+            content: "";
+
+            position: absolute;
+
+            background: inherit;
+
+            width: 100%;
+            height: 100%;
+
+            border-radius: 0;
+
+            transition: all 0.5s ease;
+
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+
+        &::before {
+            transform: rotateZ(60deg);
+        }
+
+        &::after {
+            transform: rotateZ(-60deg);
+        }
+
+        &:hover {
+            border-radius: 50px;
+            &::before,
+            &::after {
+                border-radius: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .box-wrapper {
+        width: 100px;
+        height: 100px;
+    }
+
+    .box-wrapper span {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .box-wrapper {
+        a {
+            font-size: 20px;
+        }
+    }
+}

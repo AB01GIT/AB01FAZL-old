@@ -1,0 +1,163 @@
+.btnBox {
+    background-color: transparent;
+    position: absolute;
+    bottom: 35%;
+    z-index: 1;
+    width: 173px;
+    left: 50%;
+    margin-left: -130px;
+}
+
+.btnBox span {
+    color: white;
+    z-index: 1;
+}
+
+.btn1 {
+    /* position: absolute; */
+    bottom: 200%;
+    z-index: 1;
+    left: 0%;
+}
+
+.btn2 {
+    /* position: absolute; */
+    bottom: 100%;
+    z-index: 1;
+    left: 0%;
+    margin-top: -80px;
+    margin-left: 123px;
+}
+
+.btn3 {
+    z-index: 1;
+    margin-top: -79px;
+}
+
+/* @media only screen and (max-width: 768px) {
+    .btnBox {
+        left: 40%;
+    }
+} */
+
+.languageBox {
+    font-size: 20px;
+    position: absolute;
+    bottom: 2%;
+    z-index: 1;
+    left: 5%;
+    /* margin-left: -20px; */
+}
+
+.copyRight {
+    font-size: 20px;
+    position: absolute;
+    bottom: 2%;
+    z-index: 1;
+    right: 5%;
+}
+
+#id20 {
+    font-weight: 800;
+}
+
+.langCursor {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    .btnBox {
+        left: 61%;
+        bottom: 40%;
+    }
+
+    .btnBox span {
+        color: white;
+        z-index: 1;
+    }
+
+    .btn1 {
+        left: 0%;
+    }
+
+    .btn2 {
+        margin-top: -53px;
+        margin-left: 82px;
+    }
+
+    .btn3 {
+        margin-top: -53px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .languageBox {
+        font-size: 16px;
+        position: absolute;
+        bottom: 5%;
+        z-index: 1;
+        left: 50%;
+        margin-left: -50px;
+    }
+
+    .copyRight {
+        font-size: 14px;
+        position: absolute;
+        bottom: 0%;
+        z-index: 1;
+        left: 50%;
+        margin-left: -50px;
+    }
+}
+
+.fade-in {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

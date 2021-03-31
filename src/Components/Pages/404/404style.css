@@ -1,0 +1,41 @@
+.p404div {
+    height: 100vh;
+    width: 100vw;
+}
+
+.p404p {
+    width: 100%;
+    text-align: center;
+}
+
+#p404id1 {
+    font-size: 200px;
+    padding-top: 25vh;
+    padding-bottom: 0px;
+    line-height: 130px;
+}
+
+#p404id2 {
+    font-size: 80px;
+}
+
+#p404id3 {
+    font-size: 50px;
+    text-decoration: none;
+    color: seashell;
+}
+
+@media only screen and (max-width: 760px) {
+    #p404id1 {
+        font-size: 100px;
+        padding-top: 30vh;
+    }
+
+    #p404id2 {
+        font-size: 50px;
+    }
+
+    #p404id3 {
+        font-size: 50px;
+    }
+}

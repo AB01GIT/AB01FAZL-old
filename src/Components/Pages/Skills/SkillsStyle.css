@@ -1,0 +1,114 @@
+.SkiilsPageBase {
+    background: #eeeeee;
+    animation: gradient 15s ease infinite;
+    height: 100vh !important;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.SKsurfaceRow {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 110px;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.SKdivBox {
+    padding: 20px 0px;
+    display: table-row;
+    float: left;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.SKdivBox p {
+    font-size: 23px;
+}
+
+#SKtitle {
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+    padding-top: 26px;
+}
+
+@media only screen and (max-width: 450px) {
+    body {
+        padding-top: 30px;
+    }
+    .SKsurfaceRow {
+        width: 100%;
+        max-width: 450px;
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .SKdivBox {
+        padding: 20px 0px;
+        display: table-row;
+        float: left;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    .SKdivBox p {
+        font-size: 20px;
+    }
+
+    .c100 {
+        margin: 20px 19%;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    body {
+        padding-top: 30px;
+    }
+    .SKsurfaceRow {
+        width: 100%;
+        max-width: 320px;
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .SKdivBox {
+        padding: 20px 0px;
+        display: table-row;
+        float: left;
+        width: 50%;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    .SKdivBox p {
+        font-size: 20px;
+    }
+
+    .c100 {
+        margin: 20px 20px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .SkiilsPageBase {
+        background: none;
+    }
+}

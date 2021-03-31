@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.ContactPageBase {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh !important;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.CONbaseDIV {
+    height: 100vh;
+}
+
+.CONa {
+    width: 100%;
+    display: contents;
+}
+
+.CONdivBox {
+    width: 100%;
+    min-height: 20vh;
+    /* display: block; */
+}
+
+.CONdivBox:hover i {
+    font-size: 50px;
+}
+
+.CONb1 {
+    background-color: #393737;
+}
+
+.CONb3 {
+    background-color: #393737;
+}
+
+.CONb5 {
+    background-color: #393737;
+}
+
+.CONptags {
+    font-family: "Poiret One", cursive;
+    font-weight: 400;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.CONptags2 {
+    font-weight: 400;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.CONicon {
+    margin-top: 30px;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    transition: all ease 0.4s;
+}
+
+@media only screen and (max-width: 760px) {
+    .CONptags {
+        font-size: 25px;
+    }
+
+    .CONptags2 {
+        font-size: 25px;
+    }
+
+    .CONicon {
+        margin-top: 10px;
+        font-size: 35px;
+    }
+    .CONdivBox:hover i {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .CONicon {
+        margin-top: 27px;
+        font-size: 35px;
+    }
+
+    .CONptags {
+        font-size: 20px;
+    }
+
+    .CONptags2 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .CONptags {
+        font-size: 20px;
+    }
+
+    .CONptags2 {
+        font-size: 20px;
+    }
+
+    .CONicon {
+        font-size: 30px;
+    }
+    .CONdivBox:hover i {
+        font-size: 35px;
+    }
+}
